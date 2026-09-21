@@ -10,7 +10,7 @@ Trained a 2D latent space VAE to compress and generate brain MRI images from the
 
 ## Model
 - **Type:** Variational Autoencoder (VAE)
-- **Encoder:** 4 conv layers (3→32→64→128→256 channels) → 2D latent space
+- **Encoder:** 4 conv layers (1→32→64→128→256 channels) → 2D latent space
 - **Decoder:** 4 transpose conv layers (256→128→64→32→1 channels)
 - **Loss:** Reconstruction (BCE) + KL divergence
 - **Optimizer:** Adam (lr=0.001)
