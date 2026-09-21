@@ -1,0 +1,7 @@
+*.zip
+keras_png_slices_data/
+*.pth
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+sample_data/
